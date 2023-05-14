@@ -3,8 +3,8 @@ import express from 'express';
 const app = express()
 const port = 3000;
 
-app.get('/', (req:express.Request, res:express.Response) => {
-  res.send('Hello World!');
+app.get('/', (req, res) => {
+  res.status(404).send('Page Not Found');
 });
 
 
