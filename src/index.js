@@ -7,8 +7,7 @@ const express_1 = __importDefault(require("express"));
 const app = (0, express_1.default)();
 const port = 3000;
 app.get('/', (req, res) => {
-    res.send(new Buffer('wahoo'));
-    //res.status(404).send('Page Not Found');
+    res.status(404).send({ 'Page Not Found': '404' });
 });
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`);

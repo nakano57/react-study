@@ -4,7 +4,7 @@ const app = express()
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.status(404).send('Page Not Found');
+  res.status(404).send({'Page Not Found': '404'});
 });
 
 
