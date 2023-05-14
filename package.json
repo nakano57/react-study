@@ -1,0 +1,11 @@
+{
+  "name": "react-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nakano57/react-study.git",
+  "author": "nakano <nakano@fine.cs.kobe-u.ac.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
